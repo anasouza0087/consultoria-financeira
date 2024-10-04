@@ -1,63 +1,41 @@
-/* Resetando margens, preenchimentos e bordas padrão */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Removendo estilos de listas */
-ul, ol {
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 
-/* Removendo sublinhados de links */
 a {
-    text-decoration: none;
-    color: inherit; /* Mantém a cor do link de acordo com o texto ao redor */
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Definindo estilo padrão para elementos de cabeçalho */
-/* h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-    font-weight: normal; 
-}*/
-
-/* Garantindo que imagens se ajustem ao tamanho do container */
-/* img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-} */
-
-/* Removendo estilos de botões */
-/* button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-} */
-
-/* Ajustando bordas para inputs e textareas */
-input, textarea {
-    border: none;
-    outline: none;
+input,
+textarea {
+  border: none;
+  outline: none;
 }
 
-/* Removendo sublinhados e estilo padrão em negrito de links */
-a, a:visited {
-    text-decoration: none;
-    color: inherit;
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Definindo altura mínima da página */
-html, body {
-    height: 100%;
-    font-family: Arial, sans-serif; /* Fontes padrão */
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif; /* Fontes padrão */
 }
 
-/* Garantindo que os elementos usem o modelo de caixa do CSS */
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 /* Adicionando um estilo de cursor claro */
